@@ -5,7 +5,7 @@
 <section>
     <ul>
         {#each data.posts as post }
-            <a href="/post/{post.slug}"><li>{post.title}</li></a>
+            <a id="{post.category}" href="/post/{post.slug}"><li>{post.title}</li></a>
         {/each}
     </ul>
 </section>

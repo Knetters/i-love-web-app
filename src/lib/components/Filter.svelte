@@ -4,9 +4,12 @@
 
 <section>
     <ul>
-        {#each data.posts as post }
-            <li>{post.category}</li>
-        {/each}
+        <li>Alles</li>
+        <li>Toegankelijkheid</li>
+        <li>Bedrijfsleven</li>
+        <li>Frameworks</li>
+        <li>JavaScript</li>
+        <li>CSS</li>
     </ul>
 </section>
 

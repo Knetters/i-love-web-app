@@ -6,14 +6,11 @@ export async function load() {
     query Posts {
         posts {
             category
-            createdAt
-            id
             intro
             publishedAt
             slug
             speaker
             title
-            updatedAt
         }
     }
   `; 
