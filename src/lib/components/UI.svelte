@@ -35,7 +35,7 @@
             </div>
             <div class="content-box">
                 <div class="search-box">
-                    <input type="search">
+                    <input type="search" placeholder="Zoeken...">
                 </div>
                 <Posts {data}/>
             </div>
