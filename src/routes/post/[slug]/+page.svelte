@@ -4,7 +4,7 @@
 </script>
 
   <svelte:head>
-    <title>{data.post.title}</title>
+    <title>I Love Web - {data.post.title}</title>
   </svelte:head>
 
 <main class="post-container">
