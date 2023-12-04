@@ -5,6 +5,10 @@
     import Posts from "../lib/components/Posts.svelte";
 </script>
 
+<svelte:head>
+    <title>I Love Web</title>
+</svelte:head>
+
 <main>
     <UI {data}/>
 </main>
