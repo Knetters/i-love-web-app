@@ -3,7 +3,7 @@
 </script>
 
 <section>
-    <ul>
+    <ul id="filterMe">
         {#each data.posts as post }
             <a id="{post.category}" href="/post/{post.slug}">
                 <li>
